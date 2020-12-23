@@ -7,6 +7,14 @@
 <title>Welcome</title>
 </head>
 <body>
+
+	<%
+		if(session.getAttribute("username")==null){
+			response.sendRedirect("login.jsp");
+		}
+	%>
+	
 	I am the welcome page. Open to those who login correct.
+	<h1>Welcome ${username} </h1>
 </body>
 </html>
