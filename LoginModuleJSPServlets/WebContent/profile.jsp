@@ -7,6 +7,6 @@
 <title>Profile</title>
 </head>
 <body>
-	I am the profile page. Open to those who login.
+	I am the profile page. Open to those who login correct.
 </body>
 </html>

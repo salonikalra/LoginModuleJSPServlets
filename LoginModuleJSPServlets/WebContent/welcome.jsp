@@ -7,6 +7,6 @@
 <title>Welcome</title>
 </head>
 <body>
-	I am the welcome page. Open to those who login.
+	I am the welcome page. Open to those who login correct.
 </body>
 </html>

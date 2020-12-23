@@ -1,6 +1,8 @@
 package com.login;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,6 +13,17 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().println("In the login servlet");
+		PrintWriter out = response.getWriter();
+		out.println("In the login servlet");
+		
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		
+		if(username.equals("admin") && password.equals("admin")) {
+			response.sendRedirect("welcome.jsp");
+		}
+		else {
+			response.sendRedirect("login.jsp");
+		}
 		}
 }
