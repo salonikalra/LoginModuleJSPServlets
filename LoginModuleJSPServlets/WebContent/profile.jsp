@@ -13,7 +13,8 @@
 			response.sendRedirect("login.jsp");
 		}
 	%>
-	I am the profile page. Open to those who login correct.<br>
+	<h2>Profile<small> - This is a login-required page</small></h2>
+	<h3>Username: ${username}</h3>
 	<a href="home.jsp">Your Home Page</a><br>
 	<a href="welcome.jsp">Your Welcome Page</a><br>
 	<br>

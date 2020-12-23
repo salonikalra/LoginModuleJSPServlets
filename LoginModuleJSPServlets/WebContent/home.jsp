@@ -7,7 +7,7 @@
 <title>Home</title>
 </head>
 <body>
-	I am the home page. I am open to all.<br>
+	<h2>Home<small> - No need to login for this page</small></h2>
 	<a href="welcome.jsp">Your Welcome Page</a><br>
 	<a href="profile.jsp">Your Profile Page</a><br>
 </body>

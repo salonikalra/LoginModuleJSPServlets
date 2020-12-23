@@ -14,8 +14,7 @@
 		}
 	%>
 	
-	I am the welcome page. Open to those who login correct.<br>
-	Welcome ${username}<br>
+	<h2>Welcome ${username}!<small> - This is a login-required page</small></h2>
 	<a href="home.jsp">Your Home Page</a><br>
 	<a href="profile.jsp">Your Profile Page</a><br>
 	<br>
