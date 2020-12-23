@@ -16,5 +16,9 @@
 	I am the profile page. Open to those who login correct.<br>
 	<a href="home.jsp">Your Home Page</a><br>
 	<a href="welcome.jsp">Your Welcome Page</a><br>
+	<br>
+	<form action="LogoutServlet">
+		<input type="submit" value="Logout">
+	</form>
 </body>
 </html>

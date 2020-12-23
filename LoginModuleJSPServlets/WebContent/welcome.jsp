@@ -18,6 +18,9 @@
 	Welcome ${username}<br>
 	<a href="home.jsp">Your Home Page</a><br>
 	<a href="profile.jsp">Your Profile Page</a><br>
-	
+	<br>
+	<form action="LogoutServlet">
+		<input type="submit" value="Logout">
+	</form>
 </body>
 </html>
