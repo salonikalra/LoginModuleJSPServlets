@@ -18,7 +18,7 @@
 	<a href="home.jsp">Your Home Page</a><br>
 	<a href="welcome.jsp">Your Welcome Page</a><br>
 	<br>
-	<form action="LogoutServlet">
+	<form action="LogoutServlet" method="post">
 		<input type="submit" value="Logout">
 	</form>
 </body>

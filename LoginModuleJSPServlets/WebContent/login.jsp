@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h2>Login</h2>
-	<form action="LoginServlet">
+	<form action="LoginServlet" method="post">
 		Enter username:<input type="text" name="username"><br>
 		Enter password:<input type="password" name="password"><br>
 		<br>
