@@ -7,6 +7,14 @@
 <title>Profile</title>
 </head>
 <body>
-	I am the profile page. Open to those who login correct.
+
+	<%
+		if(session.getAttribute("username")==null){
+			response.sendRedirect("login.jsp");
+		}
+	%>
+	I am the profile page. Open to those who login correct.<br>
+	<a href="home.jsp">Your Home Page</a><br>
+	<a href="welcome.jsp">Your Welcome Page</a><br>
 </body>
 </html>

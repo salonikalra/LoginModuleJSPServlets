@@ -14,7 +14,10 @@
 		}
 	%>
 	
-	I am the welcome page. Open to those who login correct.
-	<h1>Welcome ${username} </h1>
+	I am the welcome page. Open to those who login correct.<br>
+	Welcome ${username}<br>
+	<a href="home.jsp">Your Home Page</a><br>
+	<a href="profile.jsp">Your Profile Page</a><br>
+	
 </body>
 </html>
